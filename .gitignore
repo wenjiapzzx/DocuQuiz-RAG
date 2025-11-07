@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# 1. 忽略所有输出文件
+output/
+notebooks/
+
+# 2. 忽略技术报告PDF，但保留data目录下的PDF
+docs/通信文档问答系统技术报告.pdf
+*.pdf
+!data/*.pdf
+!docs/architecture.png

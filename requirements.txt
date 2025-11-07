@@ -1,0 +1,38 @@
+# 基础依赖
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+
+# LlamaIndex 依赖
+llama-index>=0.9.0
+llama-index-embeddings-huggingface>=0.2.0
+llama-index-vector-stores-chroma>=0.1.0
+llama-index-retrievers-bm25>=0.1.0
+
+# 文档解析
+llama-parse>=0.4.0
+
+# 向量数据库
+chromadb>=0.4.0
+
+# 评估和分析
+rouge>=1.0.1
+jieba>=0.42.1
+scikit-learn>=1.3.0
+sentence-transformers>=2.2.0
+
+# HTTP 和 API
+requests>=2.31.0
+huggingface-hub>=0.16.0
+
+# 异步支持
+nest-asyncio>=1.5.0
+
+# Pydantic
+pydantic>=2.0.0
+
+# 命令行工具
+argparse
+
+# 文件处理
+pathlib
